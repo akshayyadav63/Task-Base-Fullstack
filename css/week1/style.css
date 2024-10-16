@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.navbar{
+    background-color: rgb(239, 243, 243);
+    width: 100%;
+    position: fixed;
+    display: inline;
+ 
+}
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    
+}
+li{
+    margin-left: 30px;
+    padding: 10px;
+}
+li:hover{
+    background-color: rgb(165, 165, 171);
+}
+.poster{
+    background-image: url("https://www.w3schools.com/w3images/parallax1.jpg");
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+   padding: 15px;
+ 
+   
+}
+
+.about{
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+    opacity: 0.6;
+    
+}
+#first-p{
+    font-size: 20px;
+   font-style: italic;
+    line-height: 1.5;
+}
+.about-containent{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 19px;
+}
+.about-header{
+   
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+ .about-img{
+    width: 50%;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ .about-img img{
+    margin: 20px;
+ }
+ .about-img img:hover{
+    /* transform: scale(1.1);
+    transition: transform 0.3s; */
+    opacity: 100%;
+ }
+ .img-containent{
+    width: 30%;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+    line-height: 25px;
+    
+ }
+ .skill{
+   
+ }
+ .skill-type{
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+    
+ }
