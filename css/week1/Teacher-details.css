@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    max-width: 1000px;
+    padding: 20px;
+    text-align: center; /* Center the heading text */
+}
+
+#heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    height: auto; 
+    width: 100%; 
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.teacher-image {
+   border-radius: 50%;
+    object-fit: cover;
+    height: 70px;
+    width: 70px;
+    margin: 0 auto;
+}
+
+.card p {
+    margin-top: 15px; 
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(31, 95, 247);
+    text-align: left; 
+    width: 100%; 
+}
+
+.card span {
+    color: #0c0a0a;
+    font-weight: normal;
+}
+
+a {
+    color: rgb(31, 95, 247);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.back-btn{
+    background-color: rgb(31, 175, 247);
+    color: #fff;
+    border: 2px solid  rgb(31, 175, 247);
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.back-btn:hover{
+    background-color: rgb(84, 179, 252);
+    border: 2px solid  rgb(84, 179, 252);
+    color: #fff;
+}
